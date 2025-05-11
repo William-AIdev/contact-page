@@ -10,6 +10,8 @@ Open [contact-page-coral-nu.vercel.app](http://contact-page-coral-nu.vercel.app)
 
 ---
 ### Deploy on local machine  
+Please clone from the github: [https://github.com/William-AIdev/contact-page.git](https://github.com/William-AIdev/contact-page.git)
+
 First, install the libiaries:
 ```bash
 npm install
