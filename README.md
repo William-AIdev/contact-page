@@ -5,9 +5,11 @@ Special designed for Resonate company  by William Wang
 Already tested on both Mac and Windows
 
 ## Getting Started
-### Deploy already on vercel
+### Project was already deploied on vercel
+Open [contact-page-coral-nu.vercel.app](http://contact-page-coral-nu.vercel.app) to have a quick look
 
-### Deploy on local machine
+---
+### Deploy on local machine  
 First, install the libiaries:
 ```bash
 npm install

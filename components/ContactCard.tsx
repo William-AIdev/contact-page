@@ -6,6 +6,7 @@ interface Contact {
   id: number;
   name: string;
   email: string;
+  phone: string;
   company: {
     name: string;
   };
@@ -24,6 +25,9 @@ const ContactCard: React.FC<ContactCardProps> = ({ contact, onClick }) => (
     <h2 className="text-xl font-bold text-gray-800 mb-1">{contact.name}</h2>
     <p className="text-gray-600 text-sm mb-1">
       <span className="font-semibold">Email:</span> {contact.email}
+    </p>
+    <p className="text-gray-600 text-sm mb-1">
+      <span className="font-semibold">Phone:</span> {contact.phone}
     </p>
     <p className="text-gray-600 text-sm">
       <span className="font-semibold">Company:</span> {contact.company.name}
